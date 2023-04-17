@@ -53,6 +53,12 @@ bu yöntem ile HEAD kısmını masterdan koparırız(detached) ama master yine e
 head kısmını ya tekrar mastera bağlayacak (git switch master) 
 ya da yeni branch açıp (git branc feat , git switch feat) headi oraya geçiricez.
 
+git reset (commit hash kodu) - bu kod ile commitleri de siliyoruz.Ama dosyamızdaki içerik korunuyor.
+git reset --hard (commit has kodu) - bu kod ile commitlerle beraber dosyanın içeriğindeki kısmı da siliyoruz.
+git revert (commit hash kodu) - girdiğimiz commiti ve içeriği siliyor ve yeni commit oluşturuyor ama 
+sildiğimiz committen bir önceki commit içeriğinden devam ediyoruz.Burdaki önemli nokta revert ile 
+elimine ettiğimiz commit logda durmaya devam ediyor.
+
 
 
 
