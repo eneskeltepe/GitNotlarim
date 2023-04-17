@@ -39,3 +39,8 @@ ve head master oluyor.(Anlatınca baya karmaşık oldu ama kolay.)
 merge conflict - Birden fazla branch birleştirmeye çalışırken çakışma veya uyuşma hatası olursa
 merge conflict oluşur. Bu durumda çakışan kısımları kendimiz düzeltmemiz gerekir.
 
+git stash - yaptığımız değişikliği saklamayı sağlar.
+git stash list - stash listesini görmemizi sağlar.
+git stash pop - yaptığımız değişikliği geri bırakır.
+git stash apply - yaptığımız değişikliği geri bırakır ama stash listesinde tutmaya devam eder.
+git stash clear - stash listesini temizler.
