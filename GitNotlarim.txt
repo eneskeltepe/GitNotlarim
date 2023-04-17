@@ -19,7 +19,9 @@ git config user.email – Mailimizi gösterir.
 git status - git ile bir klasörde çalışmak istiyorsak bu durum komutunu çalıştırmalıyız ve git bu klasöre bağlı mı kontrol etmeliyiz.
 git init - Giti bulunduğumuz klasöre bağlamak için init kullanıyoruz.
 git add GitNotlarim.txt - GitNotlarim.txt dosyasını commit etmek için ekliyoruz.
+git add . - . komutu ile klasör içindeki tüm dosyaları add yapabiliriz.
+ama bu yöntemi kullanmak bazen dezavantajlara yol açabilir.(Git ignore incele)
 git commit -m "GitNotlarim olusturuldu ve içine bir kaç git komutu not alındı." - 
 GitNotlarim.txt dosyasını commit ediyoruz ve -m ile mesaj ekliyoruz.
 
-git log - 
+git log - gitteki değişikliklerde tutulan log kayıtlarını gösterir.

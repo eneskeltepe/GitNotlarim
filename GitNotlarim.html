@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Notlarım</title>
+</head>
+<body>
+    <pre>
+ls – Bulunduğumuz dosya konumundaki dosyaları gösterir. <br>
+ls -la - Bu komut ile gizli klasörleri de görebiliriz.
+pwd – bulunduğumuz klasör ismini gösterir.
+clear – komut dizinindeki her şeyi temizler.
+cd GitKursu – Bulunduğumuz konumda GitKursu adında bir klasör oluşturur.
+mkdir GitKursu – GitKursu klasörü içine giriş yapar.
+touch not.txt – Bulunduğumuz konumda not.txt adında bir dosya oluşturur.
+cd .. – Bulunduğumuz konumdan bir önceki konuma geri döner.
+rm GitKursu – GitKursu isimli klasörü siler.
+rm -rf not.txt – GitKursu klasörüne giriş yaptıktan sonra -rf komutu ile not.txt dosyasını silebiliriz.
+git – bu komutu yazarak gitin yardım dökümantasyonunu gösterir.
+git –version – Bilgisayarınızda hangi versiyonun yüklü olduğunu gösterir.
+git config –global user.name “Enes Keltepe” – Kullanıcı adımızı belirtmemizi sağlar
+ve yine bu kod ile istediğimiz zaman kullanıcı adımızı değiştirebiliriz.
+
+git config user.name – Kullanıcı adımızı gösterir.
+git config –global user.name mail@mail – Mailimizi belirtmemizi sağlar.
+git config user.email – Mailimizi gösterir. 
+git status - git ile bir klasörde çalışmak istiyorsak bu durum komutunu çalıştırmalıyız ve git bu klasöre bağlı mı kontrol etmeliyiz.
+git init - Giti bulunduğumuz klasöre bağlamak için init kullanıyoruz.
+git add GitNotlarim.txt - GitNotlarim.txt dosyasını commit etmek için ekliyoruz.
+git add . - . komutu ile klasör içindeki tüm dosyaları add yapabiliriz.
+ama bu yöntemi kullanmak bazen dezavantajlara yol açabilir.(Git ignore incele)
+git commit -m "GitNotlarim olusturuldu ve içine bir kaç git komutu not alındı." - 
+GitNotlarim.txt dosyasını commit ediyoruz ve -m ile mesaj ekliyoruz.
+
+git log - gitteki değişikliklerde tutulan log kayıtlarını gösterir.
+    </pre>
+</body>
+</html>
