@@ -1,0 +1,18 @@
+ls – Bulunduğumuz dosya konumundaki dosyaları gösterir.
+ls -la - Bu komut ile gizli klasörleri de görebiliriz.
+pwd – bulunduğumuz klasör ismini gösterir.
+clear – komut dizinindeki her şeyi temizler.
+cd GitKursu – Bulunduğumuz konumda GitKursu adında bir klasör oluşturur.
+mkdir GitKursu – GitKursu klasörü içine giriş yapar.
+touch not.txt – Bulunduğumuz konumda not.txt adında bir dosya oluşturur.
+cd .. – Bulunduğumuz konumdan bir önceki konuma geri döner.
+rm GitKursu – GitKursu isimli klasörü siler.
+rm -rf not.txt – GitKursu klasörüne giriş yaptıktan sonra -rf komutu ile not.txt dosyasını silebiliriz.
+git – bu komutu yazarak gitin yardım dökümantasyonunu gösterir.
+git –version – Bilgisayarınızda hangi versiyonun yüklü olduğunu gösterir.
+git config –global user.name “Enes Keltepe” – Kullanıcı adımızı belirtmemizi sağlar ve yine bu kod ile istediğimiz zaman kullanıcı adımızı değiştirebiliriz.
+git config user.name – Kullanıcı adımızı gösterir.
+git config –global user.name mail@mail – Mailimizi belirtmemizi sağlar.
+git config user.email – Mailimizi gösterir. 
+git status - git ile bir klasörde çalışmak istiyorsak bu durum komutunu çalıştırmalıyız ve git bu klasöre bağlı mı kontrol etmeliyiz.
+git init - Giti bu klasöre bağlamak için şinit kullanıyoruz.
