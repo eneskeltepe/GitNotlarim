@@ -59,6 +59,15 @@ git revert (commit hash kodu) - girdiğimiz commiti ve içeriği siliyor ve yeni
 sildiğimiz committen bir önceki commit içeriğinden devam ediyoruz.Burdaki önemli nokta revert ile 
 elimine ettiğimiz commit logda durmaya devam ediyor.
 
+git diff - iki commit veya dosya arasındaki farkları görmemizi sağlar.
+gir rebase (Mülakatlarda en çok sorulan git komutlarından birisi.) - Bu koda bir örnek vermek gerekirse
+bir projede master branchı dışında başka bir branchda çalışırken başka bir çalışan masterda değişiklik yapınca
+her seferinde merge commit yapmak logumuzu kirletir.Bu yüzden rebase kullanarak önce masterdaki commitleri
+sıralayıp ardından kendi çalıştığım esas branchtaki commitleri sıraya koymak demektir.
+Bu sayede aradaki merge komutlarından kurtuluruz.Ama bu kodun da dezavantajı bulunuyor.Bu kodu kullanarak
+bir nevi logun tarihini değiştirmiş oluyoruz.Bu yüzden eğer bu projede tek çalışılıyorsa rebase kullanılmalı
+ama başka insanlarla da çalışılırken kullanılırsa projeyi bozabilir.
+
 
 
 
