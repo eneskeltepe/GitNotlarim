@@ -12,12 +12,14 @@ ls – Bulunduğumuz dosya konumundaki dosyaları gösterir. <br>
 ls -la - Bu komut ile gizli klasörleri de görebiliriz.
 pwd – bulunduğumuz klasör ismini gösterir.
 clear – komut dizinindeki her şeyi temizler.
+
 cd GitKursu – Bulunduğumuz konumda GitKursu adında bir klasör oluşturur.
 mkdir GitKursu – GitKursu klasörü içine giriş yapar.
 touch not.txt – Bulunduğumuz konumda not.txt adında bir dosya oluşturur.
 cd .. – Bulunduğumuz konumdan bir önceki konuma geri döner.
 rm GitKursu – GitKursu isimli klasörü siler.
 rm -rf not.txt – GitKursu klasörüne giriş yaptıktan sonra -rf komutu ile not.txt dosyasını silebiliriz.
+
 git – bu komutu yazarak gitin yardım dökümantasyonunu gösterir.
 git –version – Bilgisayarınızda hangi versiyonun yüklü olduğunu gösterir.
 git config –global user.name “Enes Keltepe” – Kullanıcı adımızı belirtmemizi sağlar
@@ -54,6 +56,13 @@ git stash list - stash listesini görmemizi sağlar.
 git stash pop - yaptığımız değişikliği geri bırakır.
 git stash apply - yaptığımız değişikliği geri bırakır ama stash listesinde tutmaya devam eder.
 git stash clear - stash listesini temizler.
+
+git restore giris.txt - giris.txt dosyasındaki bir önceki commite döner.
+git checkout (commit bash kodu) - commitin bash kodunu kopyalayıp buraya yapıştırıp o commite döneriz.
+bu yöntem ile HEAD kısmını masterdan koparırız(detached) ama master yine en sonda durmaya devam eder.
+head kısmını ya tekrar mastera bağlayacak (git switch master) 
+ya da yeni branch açıp (git branc feat , git switch feat) headi oraya geçiricez.
+
 
 
     </pre>
