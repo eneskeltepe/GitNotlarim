@@ -28,6 +28,11 @@ git log - gitteki değişikliklerde tutulan log kayıtlarını gösterir.
 gitignore - gitteki gözardı edilecek dosyaları belirtmemizi sağlar.Önce touch .gitignore adında dosya oluşturuyoruz.
 ardından o dosya içine gizli.txt yazıyoruz.Artık gizli.txt dosyası gözardı edilecek.git o dosyayı takip etmeyecek.
 
+git branch - branch listesini verir.
 git branch feat - feat isminde bir branch oluşturur ve o branch üzerinde headimiz olur.
 git switch master - master branchine geri döner ve orada headimiz devam eder.
 git merge feat - feat branchi ile master branchini birleştirir.
+fast forwarding - mesela d isimli bir branch oluşturduk.Bu branchde değişiklik yaptık ama master 
+branchinde değişiklik yapmadık. git merge d yaptığımızda d branchi master branchi gibi oluyor
+ve head master oluyor.(Anlatınca baya karmaşık oldu ama kolay.)
+
